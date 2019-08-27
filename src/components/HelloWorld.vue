@@ -95,8 +95,8 @@ export default {
     console.log(this.$store.dispatch('setToken', 123123123))
     console.log(this.$store.getters.getToken + '111')
     this.axios.post('/v1/login', {
-      name: '111',
-      password: 'bbbbb'
+      name: 'jizhe',
+      password: '123456'
     })
   }
 }

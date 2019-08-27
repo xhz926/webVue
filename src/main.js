@@ -5,6 +5,10 @@ import App from './App'
 import router from './router'
 import {myStore} from './store/index'
 import {axios} from './axios/index'
+import ElementUI from 'element-ui'
+// import 'element-ui/lib/theme-chalk/index.css'
+import '../theme/index.css'
+Vue.use(ElementUI)
 
 Vue.config.productionTip = false
 
